@@ -1,0 +1,53 @@
+﻿<!-- Nombre fichero: DefaultOfficeAssociations.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+	<!-- Word -->
+	<Association Identifier=".doc" ProgId="Word.Document.8" ApplicationName="Word" />
+	<Association Identifier=".docm" ProgId="Word.DocumentMacroEnabled.12" ApplicationName="Word" />
+	<Association Identifier=".docx" ProgId="Word.Document.12" ApplicationName="Word" />
+	<Association Identifier=".dot" ProgId="Word.Template.8" ApplicationName="Word" />
+	<Association Identifier=".dotm" ProgId="Word.TemplateMacroEnabled.12" ApplicationName="Word" />
+	<Association Identifier=".dotx" ProgId="Word.Template.12" ApplicationName="Word" />
+	<Association Identifier="MS-WORD" ProgId="Word.UriLink.16" ApplicationName="Word" />
+	<!-- Excel -->
+	<Association Identifier=".xls" ProgId="Excel.Sheet.8" ApplicationName="Excel" />
+	<Association Identifier=".xlsb" ProgId="Excel.SheetBinaryMacroEnabled.12" ApplicationName="Excel" />
+	<Association Identifier=".xlsm" ProgId="Excel.SheetMacroEnabled.12" ApplicationName="Excel" />
+	<Association Identifier=".xlsx" ProgId="Excel.Sheet.12" ApplicationName="Excel" />
+	<Association Identifier=".xlt" ProgId="Excel.Template.8" ApplicationName="Excel" />
+	<Association Identifier=".xltm" ProgId="Excel.TemplateMacroEnabled" ApplicationName="Excel" />
+	<Association Identifier=".xltx" ProgId="Excel.Template" ApplicationName="Excel" />
+	<Association Identifier=".xlw" ProgId="Excel.Workspace" ApplicationName="Excel" />
+	<Association Identifier="MS-EXCEL" ProgId="Excel.UriLink.16" ApplicationName="Excel" />
+	<!-- PowerPoint -->
+	<Association Identifier=".pot" ProgId="PowerPoint.Template.8" ApplicationName="PowerPoint" />
+	<Association Identifier=".potm" ProgId="PowerPoint.TemplateMacroEnabled.12" ApplicationName="PowerPoint" />
+	<Association Identifier=".potx" ProgId="PowerPoint.Template.12" ApplicationName="PowerPoint" />
+	<Association Identifier=".pps" ProgId="PowerPoint.SlideShow.8" ApplicationName="PowerPoint" />
+	<Association Identifier=".ppsx" ProgId="PowerPoint.SlideShow.12" ApplicationName="PowerPoint" />
+	<Association Identifier=".ppt" ProgId="PowerPoint.Show.8" ApplicationName="PowerPoint" />
+	<Association Identifier=".pptm" ProgId="PowerPoint.ShowMacroEnabled.12" ApplicationName="PowerPoint" />
+	<Association Identifier=".pptx" ProgId="PowerPoint.Show.12" ApplicationName="PowerPoint" />
+	<Association Identifier="MS-POWERPOINT" ProgId="PowerPoint.UriLink.16" ApplicationName="PowerPoint" />
+	<!-- Outlook -->
+	<Association Identifier="mailto" ProgId="Outlook.URL.mailto.15" ApplicationName="Outlook" />
+	<!-- LibreOffice -->
+	<!-- ** Es deixa llibertat a l'usuari per associar rtf i csv ** -->
+	<!-- Association Identifier=".csv" ProgId="soffice.StarCalcDocument.6" ApplicationName="LibreOffice" /-->
+	<!-- Association Identifier=".rtf" ProgId="LibreOffice.Rtf" ApplicationName="LibreOffice" /-->  
+	<!-- **** -->
+	<Association Identifier=".odp" ProgId="LibreOffice.ImpressDocument.1" ApplicationName="LibreOffice" />
+	<Association Identifier=".ods" ProgId="LibreOffice.CalcDocument.1" ApplicationName="LibreOffice" />
+	<Association Identifier=".odt" ProgId="LibreOffice.WriterDocument.1" ApplicationName="LibreOffice" />
+	<!-- MS Edge -->
+	<Association Identifier=".htm" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier=".html" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier=".mht" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier=".mhtml" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier=".svg" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier="http" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier="https" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier="microsoft-edge" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier="microsoft-edge-holographic" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+	<Association Identifier="read" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+</DefaultAssociations>
