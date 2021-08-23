@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31521.260
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPOsTester", "GPOsTester\GPOsTester.csproj", "{08DF3954-E014-4F47-889D-5B8A017C597E}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "GPOsTesterEmpaquetado", "GPOsTesterEmpaquetado\GPOsTesterEmpaquetado.wixproj", "{9A444408-DF0B-4D4B-AA83-828D762CEEDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,18 @@ Global
 		{08DF3954-E014-4F47-889D-5B8A017C597E}.Release|x64.Build.0 = Release|Any CPU
 		{08DF3954-E014-4F47-889D-5B8A017C597E}.Release|x86.ActiveCfg = Release|Any CPU
 		{08DF3954-E014-4F47-889D-5B8A017C597E}.Release|x86.Build.0 = Release|Any CPU
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|ARM.ActiveCfg = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|ARM64.ActiveCfg = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|x64.ActiveCfg = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|x86.ActiveCfg = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Debug|x86.Build.0 = Debug|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|Any CPU.ActiveCfg = Release|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|ARM.ActiveCfg = Release|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|ARM64.ActiveCfg = Release|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|x64.ActiveCfg = Release|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|x86.ActiveCfg = Release|x86
+		{9A444408-DF0B-4D4B-AA83-828D762CEEDE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
