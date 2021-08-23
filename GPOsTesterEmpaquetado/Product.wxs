@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define GPOsTester_TargetDir=$(var.GPOsTester.TargetDir)?>
 	<Product Id="*" Name="GPOsTesterEmpaquetado" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="1e8b27cd-8486-44c0-bfa8-8e2033aca7f8">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
@@ -8,6 +8,7 @@
 
 		<Feature Id="ProductFeature" Title="GPOsTesterEmpaquetado" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
+			<ComponentGroupRef Id="ProgramFilesFolder_files" />
 		</Feature>
 	</Product>
 
@@ -25,6 +26,19 @@
 			<!-- <Component Id="ProductComponent"> -->
 				<!-- TODO: Insert files, registry keys, and other resources here. -->
 			<!-- </Component> -->
+			<Component Id="GPOsTester.exe" Guid="2ddefee5-44d3-493b-a763-3429cba86c4f">
+			  <File Id="GPOsTester.exe" Name="GPOsTester.exe" Source="$(var.GPOsTester_TargetDir)GPOsTester.exe" />
+			</Component>
+			<Component Id="GPOsTester.exe.config" Guid="80da14f5-b98c-432a-bf7e-92660518e56e">
+			  <File Id="GPOsTester.exe.config" Name="GPOsTester.exe.config" Source="$(var.GPOsTester_TargetDir)GPOsTester.exe.config" />
+			</Component>
 		</ComponentGroup>
+	</Fragment>
+	<Fragment>
+	  <ComponentGroup Id="ProgramFilesFolder_files" Directory="ProgramFilesFolder">
+	    <Component Id="Doc_Listado_de_aplicaciones_default.txt" Guid="fc2323c0-1b63-4ae5-bfec-de4e4e681f63">
+	      <File Id="Doc_Listado_de_aplicaciones_default.txt" Name="Listado de aplicaciones default.txt" Source="$(var.GPOsTester_TargetDir)Doc\Listado de aplicaciones default.txt" />
+	    </Component>
+	  </ComponentGroup>
 	</Fragment>
 </Wix>
