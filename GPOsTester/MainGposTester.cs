@@ -13,6 +13,9 @@ using System.Threading.Tasks;
 // Usamos la nueva especificacion de C# 9.0 donde usamos top-level statements en lugar de Main
 // La parte Main acaba en el namespace, el propio Main es el namespace general.
 //
+// 20240808: Inicio de la reescritura del código para incluir las polñiticas de Edge y 
+//           otras aplicaciones.
+//
 
 // Comenzamos la utilidad en si.
 //
